@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>side Dashboard Template
+  </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="landingpage.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"> -->
+</head>
+
+<body>
+
+  <input type="checkbox" id="check">
+
+  <!-- header aera -->
+  <header>
+    <!-- <label for="check">
+        <i class="fa-solid fa-bars" id="sidebar_btn"></i> 
+    </label>
+<div class="left_area">
+    <h3>Crupee MS</h3>  
+
+</div> -->
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="col-lg-9 d-flex justify-content-start">
+          <!-- <label for="check">
+            <i class="fa-solid fa-bars p-4" id="sidebar_btn"></i>
+          </label> -->
+
+          <div class="left_area">
+            <h3 class="p-4 fs-2">Foody</h3>
+          </div>
+          
+          <button class="btn" type="button" data-bs-toggle=" offcanvas-start " data-bs-target="#offcanvasScrolling">
+         <i class="fa-solid fa-bars p-4" id="sidebar_btn"></i></button>
+
+
+          <div class="offcanvas offcanvas-start show margin bg-dark" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+            id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header">
+            
+            </div>
+            <div class="offcanvas-body">
+              <nav class="nav nav-pills  d-flex flex-column flex-sm-column ">
+                <a class="flex-sm-fill text-sm-text-start nav-link pb-4 mb-3 mt-5 text-light fs-4 hove" data-bs-placement="button" title="Approval Status" href="#">Approval Status</a>
+                <a class="flex-sm-fill text-sm-text-start nav-link pb-4 mb-3 text-light fs-4"  data-bs-placement="button" title="E-mail Status" href="#">E-mail status</a>
+                <a class="flex-sm-fill text-sm-text-start nav-link pb-4 mb-3 text-light fs-4" data-bs-placement="button" title="Work Status" href="#">Work status</a>
+                <a class="flex-sm-fill text-sm-text-start nav-link pb-4 mb-3 text-light fs-4" data-bs-placement="button" title="To-do status" href="#">To-do status</a>
+                <a class="flex-sm-fill text-sm-text-start nav-link pb-4 mb-3 text-light fs-4" data-bs-placement="button" title="Information Update status" href="#">Information Update status</a>
+                <a class="flex-sm-fill text-sm-text-start nav-link pb-4 mb-3 text-light fs-4" data-bs-placement="button" title="Notice" href="#">Notice</a>
+              </nav>
+            </div>
+          </div>
+          
+        </div>
+        <!-- Side profile information -->
+        <div class="col-lg-3">
+          <div class="d-flex flex-row-reverse bd-highlight">
+
+            <div class="p-2 bd-highlight">
+
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <img src="/profile.jpg" alt="profile" class="img">
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Profile Information</a></li>
+                <li><a class="dropdown-item" href="#">Logout</a></li>
+
+              </ul>
+
+            </div>
+
+            <div class="p-4 bd-highlight">
+              <div class="input-group mb-2">
+                <input type="text" class="form-control" placeholder="Comments" aria-label="Recipient's username"
+                  aria-describedby="button-addon2">
+                <button class="btn btn-warning" type="button" id="button-addon2">Punch-in</button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <!-- side profile information ends -->
+      </div>
+  </header>
+
+  <!-- header area end -->
+
+  <!-- sidebar start -->
+  <!-- <div class="sidebar">
+
+
+    <a href="#"> <i class="fa-solid fa-money-bill-1"></i><span>Salary slips</span></a>
+    <a href="#"> <i class="fa-solid fa-arrow-right-from-bracket"></i><span>leaves</span></a>
+    <a href="#"><i class="fa-solid fa-calendar"></i> <span>holidays</span></a>
+    <a href="#"> <i class="fa-solid fa-desktop"></i><span>Employee Management</span></a>
+    <a href="#"> <i class="fa-solid fa-desktop"></i><span>leavemanagement</span></a>
+    <a href="#"> <i class="fa-solid fa-desktop"></i><span>Attendance</span></a> 
+
+
+
+
+  </div> -->
+
+
+
+  <!-- sidebar end -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

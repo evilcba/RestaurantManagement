@@ -1,0 +1,38 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.text-center{
+    text-align: center;
+}
+.text-white{
+    color: white;
+}
+
+/* .img-responsive{
+    width: 100%;
+} */
+.img-curve{
+    border-radius: 15px;
+}
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+.navbar{
+    background-color: crimson;
+    
+}

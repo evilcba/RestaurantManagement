@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-color: #c2bbec;
+}
+.title{
+   
+text-align: center;
+} */
+.login{
+    margin-top: 4rem;
+}
+
+.row{
+    /* background: whitesmoke; */
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px;
+}
+
+.login-img{
+    border-top-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.inp{
+    height:50px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    box-shadow: 0px 1px 30px -11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 1px 30px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 30px -11px rgba(0,0,0,0.75);
+
+}
+.btn1{
+     height: 50px;
+     width: 50%;
+     border: none;
+     outline: none;
+     border-radius: 60px;
+     font-weight: 600;
+     background: rgb(153 43 60 / 97%);
+     color: white;
+}
+.btn1:hover{
+    background-color: crimson;
+    transition: 0.5s;
+
+}
+.fa-facebook{
+    font-size: 1.5rem;
+    color: darkblue;
+} 
+.fa-google{
+    font-size: 1.5rem;
+    color: rgb(225, 216, 45);
+}
+.color{
+    color:crimson;
+}
+.img-fluid{
+    margin-bottom: 1rem;
+    width: 60%;
+}

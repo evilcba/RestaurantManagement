@@ -1,0 +1,34 @@
+*{margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+body{
+background: rgb(240, 237, 237);
+}
+.wrapper{
+    display: flex;
+    position: relative;
+}
+ .sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: crimson;
+    
+} 
+.list{
+    margin-left: 20%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+   font-size: 20px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.li a{
+    color: aliceblue;
+}
+.main-content{
+    margin-right: 120px;
+}
